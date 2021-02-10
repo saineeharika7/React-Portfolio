@@ -1,0 +1,219 @@
+.aboutme-container {
+    width :100%;
+    height :80vh;
+    display:flex;
+    justify-content :center;
+    flex-direction:column;
+    text-align :center;
+    padding-top:120px;
+    padding-bottom:120px;
+}
+
+.aboutme-items {
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content :center;
+    text-align :center;
+
+}
+
+.aboutme-item {
+    margin :2%
+}
+.image-class {
+    width :300px;
+    height :300px;
+    border-radius: 50%;
+}
+.aboutme-item p {
+    text-align: left; 
+    display:flex; 
+    flex-direction: column; 
+    align-items: center;
+    font-size :110%
+
+}
+.skills-container {
+    text-align :left
+}
+.fa-html5 {
+      font-size: 30px;
+      margin-left:50px;
+      color:red
+
+}
+.fa-css3 {
+    font-size: 30px;
+    margin-left:20px;
+    color:blue
+
+}
+.fa-js-square {
+    font-size: 30px;
+    margin-left:20px;
+    color:
+
+}
+.fa-react {
+    font-size: 30px;
+    margin-left:20px;
+    color:skyblue
+
+}
+.fa-bootstrap {
+    font-size: 30px;
+    margin-left:20px;
+    color:blueviolet
+
+}
+
+
+@media  only screen and (max-width :992px) {
+    .aboutme-container {
+        width :100%;
+        height :80vh;
+        display:flex;
+        justify-content :center;
+        flex-direction:column;
+        text-align :center;
+    }
+  
+    .aboutme-items {
+        display:flex;
+        flex-direction: column;
+        list-style: none;
+        justify-content :center;
+        text-align :center;
+    
+    }
+    
+    
+    .image-class {
+        width :200px;
+        height :200px;
+        border-radius: 50%;
+
+    }
+    .aboutme-item p {
+        text-align: left; 
+        display:flex; 
+        flex-direction: column; 
+        align-items: center;
+        font-size :100%
+    
+    }
+    
+}
+
+@media  only screen and (max-width :769px) {
+  
+    .aboutme-container {
+        width :100%;
+        height :80vh;
+        display:flex;
+        justify-content :center;
+        flex-direction:column;
+        text-align :center;
+    }
+    .aboutme-items {
+        display:flex;
+        flex-direction: column;
+        list-style: none;
+        justify-content :center;
+        text-align :center;
+    
+    }
+    
+    
+    .image-class {
+        width :180px;
+        height :180px;
+        border-radius: 50%;
+
+    }
+    .aboutme-item p {
+        text-align: left; 
+        display:flex; 
+        flex-direction: column; 
+        align-items: center;
+        font-size :95%
+    
+    }
+    
+}
+@media  only screen and (max-width :600px) {
+  
+    .aboutme-container {
+        width :100%;
+        height :80vh;
+        display:flex;
+        justify-content :center;
+        flex-direction:column;
+        text-align :center;
+    }
+    .aboutme-items {
+        display:flex;
+        flex-direction: column;
+        list-style: none;
+        justify-content :center;
+        text-align :center;
+    
+    }
+    
+    
+    .image-class {
+        width :120px;
+        height :120px
+    }
+    .aboutme-item p {
+        text-align: left; 
+        display:flex; 
+        flex-direction: column; 
+        align-items: center;
+        font-size :90%
+    
+    }
+    
+}
+
+
+
+@media  only screen and (max-width :300px) {
+  
+    .aboutme-container {
+        width :100%;
+        height :80vh;
+        display:flex;
+        justify-content :center;
+        flex-direction:column;
+        text-align :center;
+        margin-top :200px;
+        margin-bottom :50px
+    }
+    
+    .aboutme-items {
+        display:flex;
+        flex-direction: column;
+        list-style: none;
+        justify-content :center;
+        text-align :center;
+    
+    }
+    
+    
+    .image-class {
+        width :80px;
+        height :80px
+    }
+    .aboutme-item p {
+        text-align: left; 
+        display:flex; 
+        flex-direction: column; 
+        align-items: center;
+        font-size :85%
+    
+    }
+    
+}
+
