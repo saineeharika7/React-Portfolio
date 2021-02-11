@@ -63,12 +63,13 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link
-                                to="resume"
-                                className="nav-links"
-                                onClick={closeMobileMenu}>
-                                Resume
-                            </Link>
+                            <a 
+                            className="nav-links"
+                            onClick={closeMobileMenu}
+                            href= "https://drive.google.com/file/d/1nNvAZh3ZzJy1TK3GWOe-sN0QeWl-gH7l/view?usp=sharing">
+                                Resume 
+                            </a>
+                               
                         </li>
                     </ul>
                 </div>

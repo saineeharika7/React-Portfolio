@@ -6,7 +6,6 @@ import Home from './components/Home'
 import AboutMe from './components/AboutMe'
 import Projects from './components/Projects'
 import ContactMe from './components/ContactMe'
-import Footer from './components/Footer'
 import AllComponents from './components/AllComponents'
 
 function App() {
@@ -20,8 +19,8 @@ function App() {
           <Route path ="/aboutme" exact component ={AboutMe}  />
           <Route path ="/projects" exact component ={Projects}  />
           <Route path ="/contactme" exact component ={ContactMe}  />
+
         </Switch>
-        <Footer />
       </Router>
     </React.Fragment>
   );

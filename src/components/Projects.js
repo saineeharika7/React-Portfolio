@@ -20,7 +20,7 @@ function Projects() {
             <div>
             <h1 >PROJECTS</h1>
             </div>
-            <h3>Check Out the projects below </h3>
+            <h3>Check Out my projects below </h3>
                 <div className ="cards_wrapper">  
                 <ul className ="card_lists">
                   <li>

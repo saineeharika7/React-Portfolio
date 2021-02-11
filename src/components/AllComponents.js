@@ -5,7 +5,6 @@ import Home from './Home'
 import Projects from './Projects'
 
 
-
 function AllComponents() {
     return (
         <div>

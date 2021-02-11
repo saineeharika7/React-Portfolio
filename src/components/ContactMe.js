@@ -21,7 +21,7 @@ function ContactMe() {
                     <a href ="https://github.com/saineeharika7"><i className="fab fa-github"></i></a>
                 </li>
                 <li className ="contact_item__list">
-                    <a href ="https://fontawesome.com/v4.7.0/icon/envelope-o"><i className="fab fa-linkedin"></i></a>
+                    <a href ="https://www.linkedin.com/in/neeharika-reppala/"><i className="fab fa-linkedin"></i></a>
                 </li>
                 
             </ul>
