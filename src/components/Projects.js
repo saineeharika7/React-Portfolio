@@ -35,7 +35,7 @@ function Projects() {
                   </li>
                   <li>
                      <Card className ="card_item">
-                     <a href="https://romantic-almeida-f0ccbc.netlify.app/">
+                     <a href="https://neeharika-portfolio.netlify.app/">
                       <Card.Img className ="card_img" src ={portfolio} />
                       </a>
                    </Card>
