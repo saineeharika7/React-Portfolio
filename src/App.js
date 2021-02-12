@@ -10,10 +10,11 @@ import AllComponents from './components/AllComponents'
 
 function App() {
   return (
-      <div className ="fit-window">
-        <Router>
-       
-          <Navbar />
+    <React.Fragment>
+      <Router>
+      <Navbar />
+
+        <div className ="fit-window">
         <Switch>
         <Route path ="/" exact component ={AllComponents}  />
           <Route path ="/" exact component ={Home}  />
@@ -22,10 +23,10 @@ function App() {
           <Route path ="/contactme" exact component ={ContactMe}  />
 
         </Switch>
-      
+        </div>
         
       </Router>
-      </div>
+    </React.Fragment>
   );
 }
 
