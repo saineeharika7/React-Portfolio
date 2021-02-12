@@ -34,10 +34,11 @@ function AboutMe() {
                         <div className ="skills-container">
                              <h3>My Skills</h3>
                                   <i class="fab fa-html5" aria-hidden="true"></i>
-                        <i class="fab fa-css3" aria-hidden="true"></i>
-                        <i class="fab fa-js-square" aria-hidden="true"></i>
-                        <i class="fab fa-react"></i>
-                        <i class="fab fa-bootstrap"></i>
+                        <i className="fab fa-css3" aria-hidden="true"></i>
+                        <i className="fab fa-js-square" aria-hidden="true"></i>
+                        <i className="fab fa-react"></i>
+                        <i className="fab fa-bootstrap"></i>
+                        <i className="fab fa-python"></i>
                        
                         
 

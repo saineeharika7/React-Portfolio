@@ -4,5 +4,14 @@ html {
 }
 .App {
   text-align: center;
+  width:100%;
+  object-fit:cover;
+  left:0
   
+}
+.fit-window {
+  height: 100%;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
 }

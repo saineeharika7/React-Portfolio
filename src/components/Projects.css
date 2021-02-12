@@ -64,7 +64,8 @@ transition : all 0.5s
     list-style: none;
   }
   .card_item {
-   margin-top:7px
+   margin-top:7px;
+   object-fit :contain;
   
   }
   .card_img {
@@ -74,6 +75,10 @@ transition : all 0.5s
   }
 
 }
+@media  only screen and (max-width :1024px) {
+
+}
+
 
 @media  only screen and (max-width :500px) {
   .card_lists{
